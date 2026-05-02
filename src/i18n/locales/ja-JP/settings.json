@@ -1,7 +1,7 @@
 {
 	"zoom": {
-		"level": "ズーム倍率",
-		"selectRegion": "ズーム範囲を選択して調整",
+		"level": "ズームの倍率",
+		"selectRegion": "ズームの範囲を選択して調整",
 		"deleteZoom": "ズームを削除",
 		"focusMode": {
 			"title": "フォーカスモード",
@@ -10,7 +10,7 @@
 			"autoDescription": "カメラが録画中のカーソル位置に追従します"
 		},
 		"speed": {
-			"title": "ズーム速度",
+			"title": "ズームの速度",
 			"instant": "即時",
 			"fast": "高速",
 			"smooth": "滑らか",
@@ -22,7 +22,7 @@
 		"selectRegion": "速度範囲を選択して調整",
 		"deleteRegion": "速度範囲を削除",
 		"customPlaybackSpeed": "カスタム再生速度",
-		"maxSpeedError": "速度は16×を超えることはできません"
+		"maxSpeedError": "速度は 16× を超えることはできません"
 	},
 	"trim": {
 		"deleteRegion": "トリム範囲を削除"
@@ -69,34 +69,34 @@
 	"exportFormat": {
 		"mp4": "MP4",
 		"gif": "GIF",
-		"mp4Video": "MP4 ビデオ",
+		"mp4Video": "MP4 形式の動画",
 		"mp4Description": "高品質のビデオファイル",
 		"gifAnimation": "GIF アニメーション",
 		"gifDescription": "共有用のアニメーション画像"
 	},
 	"exportQuality": {
-		"title": "エクスポート品質",
+		"title": "エクスポートの品質",
 		"low": "低画質",
 		"medium": "中画質",
 		"high": "高画質"
 	},
 	"gifSettings": {
-		"frameRate": "GIF フレームレート",
-		"size": "GIF サイズ",
-		"loop": "GIF をループする"
+		"frameRate": "GIF のフレームレート",
+		"size": "GIF のサイズ",
+		"loop": "GIF をループ"
 	},
 	"project": {
 		"save": "プロジェクトを保存",
 		"load": "プロジェクトを読み込む"
 	},
 	"export": {
-		"videoButton": "ビデオをエクスポート",
+		"videoButton": "動画をエクスポート",
 		"gifButton": "GIF をエクスポート",
-		"chooseSaveLocation": "保存場所を選択"
+		"chooseSaveLocation": "保存先を選択"
 	},
 	"links": {
 		"reportBug": "バグを報告",
-		"starOnGithub": "GitHub でスターを付ける"
+		"starOnGithub": "GitHub で Star を付ける"
 	},
 	"imageUpload": {
 		"invalidFileType": "無効なファイル形式",
@@ -126,7 +126,7 @@
 		"colorPalette": "カラーパレット",
 		"clearBackground": "背景をクリア",
 		"uploadImage": "画像をアップロード",
-		"supportedFormats": "サポートされている形式: JPG, PNG, GIF, WebP",
+		"supportedFormats": "サポートされている形式: JPG、PNG、GIF、WebP",
 		"arrowDirection": "矢印の方向",
 		"strokeWidth": "線の太さ: {{width}}px",
 		"arrowColor": "矢印の色",
@@ -146,9 +146,9 @@
 		"shortcutsAndTips": "ショートカットとヒント",
 		"tipMovePlayhead": "重なっている注釈セクションに再生ヘッドを移動し、項目を選択します。",
 		"tipTabCycle": "Tabキーを使用して重なっている項目を順に切り替えます。",
-		"tipShiftTabCycle": "Shift+Tabキーを使用して逆順に切り替えます。",
+		"tipShiftTabCycle": "Shift+Tab キーを使用して逆順に切り替えます。",
 		"invalidImageType": "無効なファイル形式",
-		"imageFormatsOnly": "JPG、PNG、GIF、またはWebP画像ファイルをアップロードしてください。",
+		"imageFormatsOnly": "JPG、PNG、GIF または WebP 画像ファイルをアップロードしてください。",
 		"imageUploadSuccess": "画像が正常にアップロードされました！",
 		"failedImageUpload": "画像のアップロードに失敗しました"
 	},
@@ -163,23 +163,23 @@
 		"clean": "クリーン"
 	},
 	"customFont": {
-		"dialogTitle": "Googleフォントを追加",
-		"urlLabel": "GoogleフォントのインポートURL",
+		"dialogTitle": "Google Fonts を追加",
+		"urlLabel": "インポートする Google Fonts の URL",
 		"urlPlaceholder": "https://fonts.googleapis.com/css2?family=Roboto&display=swap",
-		"urlHelp": "Googleフォントから取得: フォントを選択 → 「フォントを取得」をクリック → @import URLをコピー",
+		"urlHelp": "Google Fonts から取得するには: フォントを選択 → 「フォントを取得」をクリック → @import URL をコピー",
 		"nameLabel": "表示名",
 		"namePlaceholder": "マイカスタムフォント",
 		"nameHelp": "フォントセレクターに表示される名前です",
 		"addButton": "フォントを追加",
 		"addingButton": "追加中...",
-		"errorEmptyUrl": "GoogleフォントのインポートURLを入力してください",
-		"errorInvalidUrl": "有効なGoogleフォントURLを入力してください",
+		"errorEmptyUrl": "インポートする Google Fonts の URL を入力してください",
+		"errorInvalidUrl": "有効な Google Fonts の URL を入力してください",
 		"errorEmptyName": "フォント名を入力してください",
-		"errorExtractFailed": "URLからフォントファミリーを抽出できませんでした",
-		"successMessage": "フォント \"{{fontName}}\" が正常に追加されました",
+		"errorExtractFailed": "URL からフォントファミリーを抽出できませんでした",
+		"successMessage": "「{{fontName}}」フォントが正常に追加されました",
 		"failedToAdd": "フォントの追加に失敗しました",
-		"errorTimeout": "フォントの読み込みに時間がかかりすぎました。URLを確認して再試行してください。",
-		"errorLoadFailed": "フォントを読み込めませんでした。GoogleフォントのURLが正しいことを確認してください。"
+		"errorTimeout": "フォントの読み込みに時間がかかりすぎました。URL を確認して再試行してください。",
+		"errorLoadFailed": "フォントを読み込めませんでした。Google Fonts の URL が正しいことを確認してください。"
 	},
 	"language": {
 		"title": "言語"

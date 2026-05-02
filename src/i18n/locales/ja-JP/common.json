@@ -9,19 +9,19 @@
 		"open": "開く",
 		"upload": "アップロード",
 		"export": "エクスポート",
-		"showInFolder": "フォルダに表示",
+		"showInFolder": "フォルダーに表示",
 		"file": "ファイル",
 		"edit": "編集",
 		"view": "表示",
 		"window": "ウィンドウ",
 		"quit": "終了",
-		"stopRecording": "録画停止"
+		"stopRecording": "録画を停止"
 	},
 	"playback": {
 		"play": "再生",
 		"pause": "一時停止",
-		"fullscreen": "全画面表示",
-		"exitFullscreen": "全画面表示を終了"
+		"fullscreen": "フルスクリーン",
+		"exitFullscreen": "フルスクリーンを終了"
 	},
 	"locale": {
 		"name": "日本語",
